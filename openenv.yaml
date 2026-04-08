@@ -1,0 +1,14 @@
+name: soc_security_env
+version: 1.0.0
+description: SOC analyst RL environment for OpenEnv hackathon
+tags: [cybersecurity, rl, gymnasium]
+environment_class: environment:SOCEnv
+framework: gymnasium
+tasks:
+  - id: 1
+    name: phish_triage
+  - id: 2
+    name: brute_block
+  - id: 3
+    name: malware_contain
+license: MIT
